@@ -1,0 +1,50 @@
+# Build / CMake
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+_deps/
+DartConfiguration.tcl
+Testing/
+
+# Often symlinked or copied from build/ for clangd
+compile_commands.json
+
+# Ninja / Make
+.ninja_deps
+.ninja_log
+rules.ninja
+
+# Compiled
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+
+# Debug / IDE
+.cache/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Interview prep (local / personal — delete these lines if you want them in git)
+docs/INTERVIEW_TOPICS.md
+docs/interview/
+
+# Python / tooling venvs (if added later)
+.venv/
+venv/
+__pycache__/
+*.pyc
